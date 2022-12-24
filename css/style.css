@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald&family=Poppins:wght@100;300;400;500;600&display=swap');
+:root {
+    --green: #27ae60;
+    --dark: #219150;
+    --black: #444;
+    --light-color: #666;
+    --border: .1rem solid rgb(0, 0, 0, .1);
+    --border-hover: .1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgb(0, 0, 0.1);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: -var(--black);
+}
+
+.header .header-1 {
+    background: #fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-1 .logo {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.header .header-1 .logo i {
+    color: var(--black);
+}
+
+.color-box {
+    color: greenyellow;
+}
+
+.header .header-1 .search-form {
+    width: 50rem;
+    height: 5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.header .header-1 .search-form input {
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+
+.header .header-1 .search-form label {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+}
+
+.header .header-1 .search-form label:hover {
+    color: var(--green);
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover {
+    color: var(--green);
+}
+
+#topnav {
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(98, 91, 91);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.nav-link {
+    display: inline-block;
+    width: 100px;
+    color: White;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 120px;
+    background-color: greenyellow;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#about {
+    margin-left: 30%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+/* Bottom right text */
+
+.text-block {
+    position: absolute;
+    margin-top: 100px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    width: 90%;
+    background-color: rgb(160, 134, 209);
+    margin-left: 4%;
+}
+
+.bg-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.heading {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.bg-image h2 {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#para {
+    padding-left: 10px;
+}
+
+.bg-image p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    background: goldenrod;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.customer-servies {
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: 1%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: solid 1px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.servies-content h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.icon-bg {
+    padding: 10px;
+}
